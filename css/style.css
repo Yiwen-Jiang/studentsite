@@ -1,0 +1,35 @@
+
+/* GLOBAL COLORS  */
+body {
+    background: rgb(123, 182, 184);
+    color: darkcyan;
+    font-family: sans-serif;
+    display: grid;
+    min-width: height 100vh;
+    align-content: center;
+    text-align: center;
+}
+        
+a {
+    color: rgb(3, 82, 82);
+}
+/* GLOBAL TYPOGRAPHY */
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 88.75%; /* 14px */
+    line-height: 1.4;
+}
+ h1 {
+    font-size: 48px;
+    text-transform: uppercase;
+}
+p {
+    max-width: 600px;
+    margin-left:auto;
+    margin-right: auto;
+    }
+a {text-decoration: none; }
+
+ul {
+    list-style: none;
+} 
