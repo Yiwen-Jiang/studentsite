@@ -17,6 +17,8 @@ a {
     color: rgb(3, 82, 82);
 }
 
+
+
 /* GLOBAL TYPOGRAPHY */
 body {
     font-family: Helvetica, Arial, sans-serif;
@@ -43,6 +45,7 @@ body {
 
 ul {
     list-style: none;
+    padding: 0em;
 } 
 
 /* SITE STRUCTURE */
