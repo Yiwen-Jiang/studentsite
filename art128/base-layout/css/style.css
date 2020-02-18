@@ -178,7 +178,7 @@ body.demo::before {
     color:white;
     text-align: center;
     padding: .2em;
-    font-size: /8em;
+    font-size: 8em;
 }
 
 /* FOR MID-SIZED SCREENS/TABLETS (and larger)*/
