@@ -10,7 +10,6 @@ body {
     font-family: sans-serif;
     display: grid;
     min-width: height 100vh;
-
 }
         
 a {
@@ -81,7 +80,7 @@ ul {
 }
 /* FOR TESTING ONLY  */
 
-/* *, body {
+/* * body {
     background: rgba(0,0,0,.1);
     border: 1px solid black;
     padding: 10px;
