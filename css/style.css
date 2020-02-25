@@ -47,6 +47,9 @@ ul {
     padding: 0em;
 } 
 
+ul ul {
+    padding: 0 2em;
+}
 /* SITE STRUCTURE */
 .site-header {
     display: flex;
