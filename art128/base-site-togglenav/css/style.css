@@ -233,7 +233,7 @@ body {
 }
 
 .site-id a {
-    display: block;
+    display: inline-block;
     padding: .25em 0;
 }
 
@@ -324,10 +324,13 @@ body {
     color: rgba(0,0,0,1);
     display: inline-block;
     font-size: 1.5em;
+    transition: 0;
 }
 
 .expanded .navicon::after {
     content: "\2715";
+    transform: rotate(-90deg);
+    transition: transform .4s ease-out;
 }
 
 
