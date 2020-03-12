@@ -80,6 +80,19 @@ p {
     max-width: 35em;
 }
 
+/* TYPE SPECIMEN */
+
+.headline {
+    font-size: 4em;
+    font-weight: normal;
+}
+
+.subheadline {
+    font-size: 2em;
+    line-height: 1.2;
+    font-weight: normal;
+    color: rgba(0, 0, 0,.7);
+}
 /* LINKS */
 a {
     color: rgba(0, 51, 102, 1);
@@ -90,6 +103,12 @@ a:hover {
     text-decoration: underline;
 }
 
+/* HELPERS */
+@media (min-width:768px) {
+    .hideonlarge {
+        visibility: hidden;
+    }
+}
 /* MEDIA */
 img {
     max-width: 100%;
@@ -356,6 +375,8 @@ section {
     padding: 4em 0;
 }
 
+/* HERO */
+
 .hero {
     text-align: center;
     background-color: rgba(0,0,0,.1);
@@ -372,6 +393,54 @@ section {
     margin-right: auto;
 }
 
+/* ARTICLE */
+article {
+    padding: 4em 0;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+article .date + p::first-letter {
+    color: red;
+    font-size: 5.6em;
+    line-height: 1;
+    font-weight: bold;
+    float: left;
+    margin: 0 .1em 0 0;
+    padding: 0;
+    display: block;
+}
+
+article .date + p::first-line {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* FORM */
+form {
+    padding: 2em 0;
+}
+
+label, input {
+    display: block;
+}
+
+label, input[type="text"], textarea {
+    width: 100%;
+}
+
+input, textarea {
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: .25em;
+    line-height: 1.15em;
+    display: block;
+    margin-bottom: 1.25em;
+}
+label {
+    margin-top: 1em;
+    margin-bottom: .5em;
+}
 
 
 /* ------------------------ */
