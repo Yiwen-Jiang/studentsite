@@ -424,14 +424,16 @@ section {
 }
 
 .tea-button a {
+    font-family: 'belucian';
+    font-weight: 600;
+    font-size: 1.5em;
     justify-content: center;
     text-align: center;
     align-items: center;
     display: inline-block;
     background: rgb(49, 63, 60);
-    padding: .5em .5em;
     width: 200px;
-    margin: 0 0 1em 0;
+    margin: 0 0 .5em 0;
 }
 
 #news {
