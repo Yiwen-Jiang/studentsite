@@ -42,6 +42,7 @@ li {
     font-size: 1.1em;
     max-width: 23em;
     color: rgb(49, 63, 60);
+    margin: auto;
 }
 
 /* TYPOGRAPHY */
@@ -96,7 +97,7 @@ p {
     max-width: 23em;
     font-size: 1.2em;
     color: rgb(49, 63, 60);
-    margin: 0 0 1em 0;
+    margin: auto auto 1em;
 }
 
 /* LINKS */
@@ -158,7 +159,7 @@ body {
     margin: 0 auto;
     border-left: 2em solid rgb(94, 113, 91);
     border-right: 2em solid rgb(94, 113, 91);
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
 }
 
 /* MEDIA QUERIES */
@@ -185,8 +186,9 @@ body {
 @media (min-width: 768px) {
     .row {
         display: flex;
-        margin-left: -1%;
-        margin-left: -1%;
+        margin-left: -3%;
+        margin-left: -3%;
+        justify-content: center;
     }
 
     .column {
@@ -196,20 +198,17 @@ body {
         margin-bottom: 3%;
     }
 
-    .column.centered {
-        text-align: center;
-        position: relative;
-        left: 300px;
-    }
+    
 
     .one-whole { width: 100%; }
-    .one-half { width: 48%; }
-    .one-third { width: 31.3333%; }
+    .one-half { width: 47%; }
+    .one-third { width: 33.3333%; }
     .push-one-third { margin-left: 34.3333%; }
     .two-thirds { width: 64.6666%; }
-    .push-two-thirds { width: 66.6666%; }
+    .push-two-thirds { margin-left: 66.6666%; }
     .one-fourth { width: 23%; }
     .push-one-fourth { margin-left: 26%; }
+    .push-one-half { margin-left: 47%;}
 
     .row.centered {
         justify-content: center;
@@ -334,6 +333,18 @@ body {
     border: 5px solid rgb(121, 135, 111);
     padding: 2em;
 }
+
+@media (max-width: 768px) {
+
+    .site-nav ul {
+        display: block;
+    }
+    .site-nav li {
+        max-width: none;
+        padding: .25em 0;
+    }
+}
+
 /* SITE MAIN (Main Content Area) */
 
 
@@ -355,18 +366,20 @@ section {
     background-size: cover;
     background-position: center;
     padding: 1em 0 1em 0;
-    position: relative;
-    left: 800px;
-    top: 150px;
 }
 
-.pp1 {
-    position: relative;
-    bottom: 100px;
+
+
+.locations {
+    padding: 0;
 }
 
-.tea111 {
-    max-width: 50%;
+.locations li {
+    margin-bottom: 1em;
+}
+
+.locations h5 {
+    margin: 0;
 }
 
 .sectionhead-2 {
@@ -415,6 +428,11 @@ section {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+.column.centered {
+    background:rgb(121, 135, 111);
+    padding: 2em;
+    width: 600px;
 }
 
 /* ------------------------ */
